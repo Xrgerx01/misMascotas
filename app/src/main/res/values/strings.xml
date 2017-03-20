@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">misMascotas</string>
+    <string name="nombre">MASCOTA</string>
+    <string name="favorito">0</string>
+    <string name="pnombre">nombre</string>
+    <string name="pfavorito">favorito</string>
+    <string name="icono_star">top5</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_carview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/garfield"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation = "horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/imghuesob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/huesoblanco"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/tvNombreCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pnombre"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/nombre_mascota"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/espacio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             "
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/nombre_mascota"
+
+                />
+
+            <TextView
+                android:id="@+id/tvFavoritoCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pfavorito"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/nombre_mascota"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/imghuesop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/huesopintado"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

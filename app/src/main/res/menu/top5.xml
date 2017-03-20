@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alro2025.mascotaslike.MainActivity">
+
+    <item android:id="@+id/btnStar"
+        android:icon="@drawable/estrella"
+        android:title="@string/icono_star"
+        app:showAsAction="always"
+        />
+</menu>
